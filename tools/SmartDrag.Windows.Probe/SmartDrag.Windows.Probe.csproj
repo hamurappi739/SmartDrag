@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <OutputType>Exe</OutputType>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\SmartDrag.Windows\SmartDrag.Windows.csproj" />
+    <ProjectReference Include="..\..\src\SmartDrag.Actions\SmartDrag.Actions.csproj" />
+    <ProjectReference Include="..\..\src\SmartDrag.Infrastructure\SmartDrag.Infrastructure.csproj" />
+  </ItemGroup>
+</Project>

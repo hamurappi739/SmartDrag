@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <OutputType>WinExe</OutputType>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SmartDrag.Core\SmartDrag.Core.csproj" />
+    <ProjectReference Include="..\SmartDrag.Actions\SmartDrag.Actions.csproj" />
+    <ProjectReference Include="..\SmartDrag.Imaging\SmartDrag.Imaging.csproj" />
+    <ProjectReference Include="..\SmartDrag.Infrastructure\SmartDrag.Infrastructure.csproj" />
+    <ProjectReference Include="..\SmartDrag.Overlay\SmartDrag.Overlay.csproj" />
+    <ProjectReference Include="..\SmartDrag.Runtime\SmartDrag.Runtime.csproj" />
+    <ProjectReference Include="..\SmartDrag.Orchestration\SmartDrag.Orchestration.csproj" />
+    <ProjectReference Include="..\SmartDrag.Presentation\SmartDrag.Presentation.csproj" />
+    <ProjectReference Include="..\SmartDrag.Windows\SmartDrag.Windows.csproj" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,6 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <ItemGroup>
+    <ProjectReference Include="..\SmartDrag.Core\SmartDrag.Core.csproj" />
+    <ProjectReference Include="..\SmartDrag.Runtime\SmartDrag.Runtime.csproj" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-labelledby="title desc">
+  <title id="title">SmartDrag</title>
+  <desc id="desc">A blue rounded square with a white drag-and-forward arrow</desc>
+  <rect width="128" height="128" rx="34" fill="#007AFF"/>
+  <path d="M28 83 55 56v17h18l27-28" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="10"/>
+  <path d="m86 45 14 0-1 14" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="10"/>
+</svg>

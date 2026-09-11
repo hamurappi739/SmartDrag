@@ -1,0 +1,7 @@
+namespace SmartDrag.Core.Primitives;
+
+public readonly record struct RectD(double Left, double Top, double Right, double Bottom)
+{
+    public double Width => Right - Left;
+    public double Height => Bottom - Top;
+}

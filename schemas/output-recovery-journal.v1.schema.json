@@ -1,0 +1,26 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://smartdrag.local/schemas/output-recovery-journal.v1.schema.json",
+  "title": "SmartDrag Output Recovery Journal v1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["version", "revision", "entries"],
+  "properties": {
+    "version": { "const": 1 },
+    "revision": { "type": "integer", "minimum": 0 },
+    "entries": {
+      "type": "array",
+      "maxItems": 4096,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["reservationId", "temporaryPath", "createdAt"],
+        "properties": {
+          "reservationId": { "type": "string", "format": "uuid" },
+          "temporaryPath": { "type": "string", "minLength": 1 },
+          "createdAt": { "type": "string", "format": "date-time" }
+        }
+      }
+    }
+  }
+}

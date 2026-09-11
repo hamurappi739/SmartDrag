@@ -219,4 +219,3 @@ approved scope.
 - `ProductionRuntimeGraph` hides JobQueue/ActionExecutor/CompletionCommandExecutor from its public application surface;
 - `MvpSettingsPolicy` validates timing/placement values and hard-requires source preservation;
 - ADR-038..041 and P5 presentation/runtime test matrix added.
-

@@ -1,0 +1,1306 @@
+{
+  "foundation_version": "0.9",
+  "generated_at_utc": "2026-09-01T21:39:36.375841+00:00",
+  "build_status": "UNVERIFIED_BUILD_NO_DOTNET_SDK_IN_GENERATION_ENVIRONMENT",
+  "static_validation": "PASSED",
+  "image_corpus_validation": "PASSED",
+  "file_count_excluding_manifest": 259,
+  "projects_in_solution": 19,
+  "files": [
+    {
+      "path": ".editorconfig",
+      "bytes": 486,
+      "sha256": "b2735be77798cc7ece80712465fc8922274062ba5d693950c752fd3b4074dc01"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 86,
+      "sha256": "f4f1a1d994980c9b6cbb90c7416955fc93809ef7af265a5dced0d063dd9bebbb"
+    },
+    {
+      "path": "Directory.Build.props",
+      "bytes": 352,
+      "sha256": "6452878c0b91cce915f06be4a72aa666572b48e85ddc4500f0b1379c4199c6e1"
+    },
+    {
+      "path": "Directory.Packages.props",
+      "bytes": 365,
+      "sha256": "c86074a99d8a22b0b1bf5d4e573b099040cf2176fcb220b160d7ab1371e1cabb"
+    },
+    {
+      "path": "FOUNDATION_VERSION.txt",
+      "bytes": 4,
+      "sha256": "a839ab0447b2d415fe1732387938b5e06aa9d5aba7ed0f0c927837f0e77027f2"
+    },
+    {
+      "path": "PROJECT_STATE.md",
+      "bytes": 5089,
+      "sha256": "9613070fe3031972c262c2ad64a36bcf425c293512208ae5e0c12488a62d10df"
+    },
+    {
+      "path": "README.md",
+      "bytes": 5353,
+      "sha256": "a62a278d2837bee36e78d51e04d5eb7f3eb8c9efa99321b3ef585335f12ae480"
+    },
+    {
+      "path": "SmartDrag.sln",
+      "bytes": 10223,
+      "sha256": "612928ebbc2696ded8af2991661eb9ec20c3505b2af191013ce254b0332327ed"
+    },
+    {
+      "path": "docs/OPEN_QUESTIONS.md",
+      "bytes": 3863,
+      "sha256": "5ce90a8f30e12eb277f3af561f3372ca2b135e584aad6028c3a3aa4802414f8f"
+    },
+    {
+      "path": "docs/architecture/ARCHITECTURE_FOUNDATION.md",
+      "bytes": 3388,
+      "sha256": "ee9aa8d97f82f0e9f9ed457fbdddd31b11edaaafe0b328e786e56341728daf52"
+    },
+    {
+      "path": "docs/artifacts/GENERATED_ARTIFACT_IDENTITY.md",
+      "bytes": 2413,
+      "sha256": "dc5f23d3e0423e389ecd7046117a6abcba401c8196f3f0215ba1f2b58817b277"
+    },
+    {
+      "path": "docs/canonical/SMARTDRAG_MASTER_CONTEXT.md",
+      "bytes": 6209,
+      "sha256": "ead39517cc792eb040604998ebce0fc953b1114eeebdff7ebc6897acce94f90d"
+    },
+    {
+      "path": "docs/completion/COMPLETION_COMMAND_EXECUTION.md",
+      "bytes": 2657,
+      "sha256": "89941f11ba68d6d9a4ecc572d84a2f08dfa1da983518eeac9e784a88404098ef"
+    },
+    {
+      "path": "docs/composition/PRODUCTION_COMPOSITION_ROOT.md",
+      "bytes": 2568,
+      "sha256": "63179370967db76055a231023aae7b48b97d41a0fff22d4669ffa452aa7ccd24"
+    },
+    {
+      "path": "docs/decisions/ADR-000-index.md",
+      "bytes": 3391,
+      "sha256": "df6e43deec30d2492a407efb35ae798c16456b113c4c016fc642814d3f3e4f6f"
+    },
+    {
+      "path": "docs/decisions/ADR-001.md",
+      "bytes": 203,
+      "sha256": "a2295aa7b9351a4331935d745978a8b7c49ec0a9ff07e66e9176aa2438531b78"
+    },
+    {
+      "path": "docs/decisions/ADR-002.md",
+      "bytes": 254,
+      "sha256": "ab8415528cb3288655781b2788f3d1e3136423d6857a40b25045b5bff61a29d8"
+    },
+    {
+      "path": "docs/decisions/ADR-003.md",
+      "bytes": 182,
+      "sha256": "a1e88f34212c5e580e73a25fff56893f14618fee72092bf9af9769c30b27d348"
+    },
+    {
+      "path": "docs/decisions/ADR-004.md",
+      "bytes": 187,
+      "sha256": "00bec40a19e3e12414bc84f625dae192f37f12e8a266458ddcb76607bb586380"
+    },
+    {
+      "path": "docs/decisions/ADR-005.md",
+      "bytes": 212,
+      "sha256": "f6ea0e5385cf32ceb74fdb179ac05574c6b75701e0a7b7e9e8f5cfc02b4b182f"
+    },
+    {
+      "path": "docs/decisions/ADR-006.md",
+      "bytes": 226,
+      "sha256": "e2ac25e81e86fd7ec812928003b6751cc116c4f4ff5b7fd11c0d9643655765e9"
+    },
+    {
+      "path": "docs/decisions/ADR-007.md",
+      "bytes": 253,
+      "sha256": "b81a15deb030073c439176a861878a979043bc54f292e819722bc06581bfefd6"
+    },
+    {
+      "path": "docs/decisions/ADR-008.md",
+      "bytes": 197,
+      "sha256": "d25ea0c540e5ba01399444bf6894114b536bf7bca26662cf4767ee66a6f42fa5"
+    },
+    {
+      "path": "docs/decisions/ADR-009.md",
+      "bytes": 247,
+      "sha256": "b32f828b3669fe9a329f12cbf3070929a0160d2e22736209a659bc4744dd9b48"
+    },
+    {
+      "path": "docs/decisions/ADR-010.md",
+      "bytes": 225,
+      "sha256": "19c918f40d9ac3dec1fa6f07d989a41e348b721ce2beaf36934b153577d55b3f"
+    },
+    {
+      "path": "docs/decisions/ADR-011.md",
+      "bytes": 162,
+      "sha256": "fa6495678b4b7ac53abeced6dbd7771d174fdfe37d065579080880bea24a9419"
+    },
+    {
+      "path": "docs/decisions/ADR-012.md",
+      "bytes": 164,
+      "sha256": "7f97c9d84561d62ed4cfc2efdb183f314ae933ec5064f32a8640f4ea1100b075"
+    },
+    {
+      "path": "docs/decisions/ADR-013.md",
+      "bytes": 189,
+      "sha256": "a1108b0253c1554699b408bcf9610c309c866d9b92112b17eed5f440179247eb"
+    },
+    {
+      "path": "docs/decisions/ADR-014.md",
+      "bytes": 259,
+      "sha256": "d604ce72d796c0917b09e3fd127213414c21ceb59dcfae8c7f217d854aff4d54"
+    },
+    {
+      "path": "docs/decisions/ADR-015.md",
+      "bytes": 461,
+      "sha256": "888ef1d567af3aefa8691322dee8c9c5532bb0eb325715436a4f152b205bce91"
+    },
+    {
+      "path": "docs/decisions/ADR-016.md",
+      "bytes": 479,
+      "sha256": "e6d304941f7ce76ada0da5f8435d9bed514a52abacd1ff56172df35d85516e23"
+    },
+    {
+      "path": "docs/decisions/ADR-017.md",
+      "bytes": 1403,
+      "sha256": "760133780740b8a7e44946d6cb24657dd9bcbf6d6e0ff0d6446ab421aa4822c6"
+    },
+    {
+      "path": "docs/decisions/ADR-018.md",
+      "bytes": 1579,
+      "sha256": "5cc3c0ae9506b5b9fed9ae1cd00425e46613ee63fd4a5adb15172359737c27a7"
+    },
+    {
+      "path": "docs/decisions/ADR-019.md",
+      "bytes": 1689,
+      "sha256": "b974e55804b6cb9b9d2b6ddc7180f982aff0c5141993ae22e11f050ef767dbad"
+    },
+    {
+      "path": "docs/decisions/ADR-020.md",
+      "bytes": 990,
+      "sha256": "3b900aad58861d6f0626b8ba22ecdc7ba7085c3ab08543b0ef6f5880f2fee01f"
+    },
+    {
+      "path": "docs/decisions/ADR-021.md",
+      "bytes": 1561,
+      "sha256": "61a7e6d98ed20b76d933a7b54fbc8a3edb3280e4de2e818706019394188e97ad"
+    },
+    {
+      "path": "docs/decisions/ADR-022.md",
+      "bytes": 794,
+      "sha256": "01a606366fa00c6c8ba635586aae87b0342c0791f0cb3181fd48ce06ad8f33e0"
+    },
+    {
+      "path": "docs/decisions/ADR-023.md",
+      "bytes": 901,
+      "sha256": "98b31c62e50061ad5f809b767b9de928801e715d07f8f1f5c49d760877171d65"
+    },
+    {
+      "path": "docs/decisions/ADR-024.md",
+      "bytes": 549,
+      "sha256": "e2ff0383e4b17a8d83469c7b46d4b5a2acaa0d3368d91afbffe03a05afe8e059"
+    },
+    {
+      "path": "docs/decisions/ADR-025.md",
+      "bytes": 931,
+      "sha256": "b4446f4fb5ca9a2703501fd41003276676dc53ab6900cf7028397315b7200c46"
+    },
+    {
+      "path": "docs/decisions/ADR-026.md",
+      "bytes": 835,
+      "sha256": "d6db2d0d8296b59502ee687fddce76f934425598e563436d055139a77c563d2c"
+    },
+    {
+      "path": "docs/decisions/ADR-027.md",
+      "bytes": 826,
+      "sha256": "7c42dc2c4bbbf17e936f56f934a5ea86c5f02db1181543e30411ca9498a3966e"
+    },
+    {
+      "path": "docs/decisions/ADR-028.md",
+      "bytes": 865,
+      "sha256": "292b2f776f9069704754752a9db194c389f8401ce79c53229d4fd3d86ff7926e"
+    },
+    {
+      "path": "docs/decisions/ADR-029.md",
+      "bytes": 1306,
+      "sha256": "594d523704c296c1d4f60f8d54d088b2779554938cbadd7e0f83be1de04dc64c"
+    },
+    {
+      "path": "docs/decisions/ADR-030.md",
+      "bytes": 1081,
+      "sha256": "94ae7beb9b6e147620c53a60c6fefe41004e96c4ed84c85ea543983426179f42"
+    },
+    {
+      "path": "docs/decisions/ADR-031.md",
+      "bytes": 1540,
+      "sha256": "03a08afd4b75640a62ce9220bb20bc6ad30c757149b92209e59b971b7f027d55"
+    },
+    {
+      "path": "docs/decisions/ADR-032.md",
+      "bytes": 994,
+      "sha256": "d262b9dcc69ae24b4656027c540c3a723fbff84317b1202cd614118c6bc925af"
+    },
+    {
+      "path": "docs/decisions/ADR-033.md",
+      "bytes": 1396,
+      "sha256": "b314d8270795a391b703921baa76e7e7d62098195f9dff622b21e9e42ea1a008"
+    },
+    {
+      "path": "docs/decisions/ADR-034.md",
+      "bytes": 2454,
+      "sha256": "9dcc522156fff42814698bb8038e153469a63a8dec9776b0b771a93b60874db5"
+    },
+    {
+      "path": "docs/decisions/ADR-035.md",
+      "bytes": 1168,
+      "sha256": "875b643ac9e3a2ec6f27bbc4407aa8aba007c140770787065fcc9926171508f8"
+    },
+    {
+      "path": "docs/decisions/ADR-036.md",
+      "bytes": 1783,
+      "sha256": "4eddacfa728bad69c508cf524a1933b4dfd162ad39cd1f0c77b49151394b0c12"
+    },
+    {
+      "path": "docs/decisions/ADR-037.md",
+      "bytes": 1178,
+      "sha256": "20cf98095f195b1420a68c777dbb3f889945e4472c8160fd32125097a6357d80"
+    },
+    {
+      "path": "docs/decisions/ADR-038.md",
+      "bytes": 664,
+      "sha256": "36681db60c27e36bb442fa209a826e3edb994d905d549ac72f3282cf9600da3a"
+    },
+    {
+      "path": "docs/decisions/ADR-039.md",
+      "bytes": 542,
+      "sha256": "33e4071d72853dc16d9813874bd17a56895b1d9b1001fb705b8abb49df8fa100"
+    },
+    {
+      "path": "docs/decisions/ADR-040.md",
+      "bytes": 551,
+      "sha256": "120a5da69d9ab482ab06927e13f5ad743bc91aaf603a420cb1ab2e0c5c9393c1"
+    },
+    {
+      "path": "docs/decisions/ADR-041.md",
+      "bytes": 556,
+      "sha256": "8a93461a9b4994c5d563e48640462db3a35fc22b05269f2d6be7529d38dd5d63"
+    },
+    {
+      "path": "docs/handoff/ARTIFACT_INDEX.md",
+      "bytes": 3756,
+      "sha256": "4ad4057ac15b50d2f601827df97a15924b70d046534fb4ed860ca7b4c74b977e"
+    },
+    {
+      "path": "docs/handoff/CURSOR_ENTRY_PROTOCOL.md",
+      "bytes": 3118,
+      "sha256": "6341e522ec864215a6739660785b2ded679c3bf5d94bb9f72dafced39ec1c209"
+    },
+    {
+      "path": "docs/handoff/FOUNDATION_CHANGELOG.md",
+      "bytes": 9417,
+      "sha256": "976d4018728f7aaa878f121b841f78beec921743d42eb7ac7779d97490e0cfe3"
+    },
+    {
+      "path": "docs/handoff/SMARTDRAG_FUTURE_CURSOR_HANDOFF.md",
+      "bytes": 55041,
+      "sha256": "49940dfae42647027db60efb4137d7810ce92270cce8666b2ca9a6df86390fd2"
+    },
+    {
+      "path": "docs/imaging/G3_IMAGE_PROCESSING_SPEC.md",
+      "bytes": 4749,
+      "sha256": "30efefb346f3f305db7101b93c82c70cf1b0c587ded80ab3888f0ac0a9c4021a"
+    },
+    {
+      "path": "docs/imaging/IMAGE_TEST_CORPUS.md",
+      "bytes": 1767,
+      "sha256": "237f57f0c2d64ddffdd912e41109bdc5f371198f53e16e3b5fa6841473852fab"
+    },
+    {
+      "path": "docs/orchestration/PRODUCTION_DRAG_TO_JOB_FLOW.md",
+      "bytes": 4533,
+      "sha256": "56a9d5d7e546568b5a106c1c68e9f53310c6c79da1f5bce49ed7c981bf51eb4b"
+    },
+    {
+      "path": "docs/recovery/CRASH_RECOVERY_MODEL.md",
+      "bytes": 2487,
+      "sha256": "0afe13b850ec23d92b5befe5b400221a62f47ffa4ba3f8c6c5c9ac0677afd667"
+    },
+    {
+      "path": "docs/recovery/OUTPUT_RECOVERY_JOURNAL_FORMAT.md",
+      "bytes": 1389,
+      "sha256": "c6371371803b5bcc38eebdeeffb289a292d07bd4b58baa9d358824be37003691"
+    },
+    {
+      "path": "docs/research/IMAGE_CODEC_CANDIDATES_2026-08-31.md",
+      "bytes": 2587,
+      "sha256": "79596d76e6b47558e5e7a5e87af8ecf55070ad6f1a25372c6911fd48aa199f1d"
+    },
+    {
+      "path": "docs/research/WINDOWS_API_EVIDENCE.md",
+      "bytes": 6365,
+      "sha256": "d573773924146f8ff867ff9c232cf56258af6ce3f13843dd1a25df2a9a068351"
+    },
+    {
+      "path": "docs/runtime/COMPLETION_MODEL.md",
+      "bytes": 2811,
+      "sha256": "b49b5f1cc79a45a70ddf434046db4890338379bc4309b50cd2179ee2f2bcd5e6"
+    },
+    {
+      "path": "docs/runtime/OUTPUT_SAFETY_MODEL.md",
+      "bytes": 3175,
+      "sha256": "337fff8c60bec92793e380806fdb3a17efdbda85e826b53b7c16f6c5f0dc8116"
+    },
+    {
+      "path": "docs/runtime/RUNTIME_EXECUTION_MODEL.md",
+      "bytes": 2482,
+      "sha256": "b9d6e34b041c59ff03987db4afa887a60d2161dc02d9361c571afe5409a12d47"
+    },
+    {
+      "path": "docs/settings/MVP_SETTINGS_POLICY.md",
+      "bytes": 1140,
+      "sha256": "af3af2c9740ea5fea5f256bcae0d14e006b47c633a3ee218f8b72f7f634eb83f"
+    },
+    {
+      "path": "docs/testing/BUILD_GATE.md",
+      "bytes": 5066,
+      "sha256": "084bbc3d1465c6ead62369c39c849b50d027ee719736a07587e64a66cb2e94e8"
+    },
+    {
+      "path": "docs/testing/G2_QUALIFICATION_TEST_MATRIX.md",
+      "bytes": 2150,
+      "sha256": "2c312117255495ff0a43635d6b103d5ea919ec35b59684a4875246f06f7a7568"
+    },
+    {
+      "path": "docs/testing/G3_IMAGE_CODEC_TEST_MATRIX.md",
+      "bytes": 1630,
+      "sha256": "694378134ee7defbc35ea7f827024fc8335af7151ba3caf86f39ef0709dfca43"
+    },
+    {
+      "path": "docs/testing/IMAGE_CORPUS_GENERATION_EVIDENCE.md",
+      "bytes": 841,
+      "sha256": "18e3d555ed084d1be459dc5ba12162d42194317d163ccddaa6ab95b4fabcc4a6"
+    },
+    {
+      "path": "docs/testing/P0_TEST_MATRIX.md",
+      "bytes": 1986,
+      "sha256": "8e4cb2ed50fd1bdd81f5d1228cd673f328332e76a3bd3f0097fbe1e9da957f5d"
+    },
+    {
+      "path": "docs/testing/P1_RUNTIME_TEST_MATRIX.md",
+      "bytes": 1557,
+      "sha256": "593172e3511d5c7a35dd9a3fa1bc31c7cc020f5bdcc2b78701ea749d6daf5f94"
+    },
+    {
+      "path": "docs/testing/P2_ORCHESTRATION_TEST_MATRIX.md",
+      "bytes": 1778,
+      "sha256": "a7580e99e0df326e123cd60a25a845f9690196ebf5fb0ba373f8f70e6a152f62"
+    },
+    {
+      "path": "docs/testing/P3_RECOVERY_COMPLETION_TEST_MATRIX.md",
+      "bytes": 2026,
+      "sha256": "4f8923d27983895225ab099ef2cddc93fe79c2aebe8400a776d80dac3c4f7544"
+    },
+    {
+      "path": "docs/testing/P4_ARTIFACT_IDENTITY_COMPOSITION_TEST_MATRIX.md",
+      "bytes": 2356,
+      "sha256": "3a1b4a760ad37a2553832048525ba77a9be2e20bbc3eb48d1ad9921cdb063031"
+    },
+    {
+      "path": "docs/testing/P5_PRESENTATION_RUNTIME_TEST_MATRIX.md",
+      "bytes": 1957,
+      "sha256": "a7ddbe99ec9e755aa254900c98b3087db2fb9821180f90020cd4e10b0cc21cb9"
+    },
+    {
+      "path": "docs/testing/PROBE_EVIDENCE_RUNBOOK.md",
+      "bytes": 2239,
+      "sha256": "adb3ad0d7b43927593663e489bd3ef2951c000e70ede78bbaeb88ea6248c8484"
+    },
+    {
+      "path": "docs/testing/STATIC_REVIEW_v0.5.md",
+      "bytes": 2502,
+      "sha256": "cddc389ff49d442c43b8b83931edb4fe23a401cf07cf64d07152db315bce75e2"
+    },
+    {
+      "path": "docs/testing/STATIC_REVIEW_v0.6.md",
+      "bytes": 2318,
+      "sha256": "6176cdce6323b95d8296caa3587c304ed2aef46db00831e952ba60b1cda5f2de"
+    },
+    {
+      "path": "docs/testing/STATIC_REVIEW_v0.7.md",
+      "bytes": 3396,
+      "sha256": "06a323678812141113817374e70b2073bc8a794617d4546f14cba5387528ce4c"
+    },
+    {
+      "path": "docs/testing/STATIC_REVIEW_v0.8.md",
+      "bytes": 2998,
+      "sha256": "9a87400cb36e4c9700449cd20075f7c838ce3679f5ac8e496266f42ff394ea5e"
+    },
+    {
+      "path": "docs/testing/STATIC_REVIEW_v0.9.md",
+      "bytes": 1620,
+      "sha256": "bbcc2e12586f912cf7f5efad8ff5ba00b553277743e968aa7f9c788a0c4fa518"
+    },
+    {
+      "path": "docs/ux/MVP_PRESENTATION_SPEC.md",
+      "bytes": 4229,
+      "sha256": "107a2694a02716fe7128c10f362eff7011d89190589c496f059935313e815270"
+    },
+    {
+      "path": "docs/ux/PRESENTATION_STATE_AND_INTENT_MODEL.md",
+      "bytes": 1948,
+      "sha256": "3dc060528665ee88a57ffd1383f0d94f3e7ef93e8c7a7b2aea88548514679a3b"
+    },
+    {
+      "path": "docs/windows/G2_PREOVERLAY_QUALIFICATION.md",
+      "bytes": 3660,
+      "sha256": "583ccf2cfdc7833636a94da90608cda58e67c0dc103fdcabb423968ac5c7be08"
+    },
+    {
+      "path": "docs/windows/NATIVE_BOUNDARY_SAFETY.md",
+      "bytes": 1856,
+      "sha256": "34bdc0de2295dae9d511beaf3b3f34ac3af70706fffeb41c15e5e7c0af6cf572"
+    },
+    {
+      "path": "docs/windows/P0_WINDOWS_DRAG_OVERLAY_PROBE.md",
+      "bytes": 2403,
+      "sha256": "0712c519cbac59fcbf4b608601bbc6a8fc3ffabce3120d3239198e2acebff494"
+    },
+    {
+      "path": "docs/windows/PROBE_EVENT_SCHEMA.md",
+      "bytes": 3783,
+      "sha256": "cf969910c94f00c6cc8ed70c9828beef87be8910b0a5c0d176035b203c6310c2"
+    },
+    {
+      "path": "schemas/output-recovery-journal.v1.schema.json",
+      "bytes": 870,
+      "sha256": "77ab9611321be191834d6b5b71bc3983d30c6f86bf8e340fa3929d4cdbe7109c"
+    },
+    {
+      "path": "scripts/analyze_probe_log.py",
+      "bytes": 5343,
+      "sha256": "b6bd5e2dee006df129383702d3f65c902870e7a618db66868384bd0d2cd923c1"
+    },
+    {
+      "path": "scripts/build.ps1",
+      "bytes": 360,
+      "sha256": "5e852296ce407bb8b807a1414847a90f3a0aeca5f61e0ad357bc143a165a080f"
+    },
+    {
+      "path": "scripts/run-probe.ps1",
+      "bytes": 212,
+      "sha256": "172238cdd32373fe3dd8ef7dd7c7a5e8667d31bf6902a9df853de24c877a6af5"
+    },
+    {
+      "path": "scripts/validate_image_corpus.py",
+      "bytes": 1194,
+      "sha256": "91e6a0c64829213234ed65deb18003fc71559fbceda4fab89d5d079e734c9b2b"
+    },
+    {
+      "path": "scripts/validate_repo.py",
+      "bytes": 23084,
+      "sha256": "68f0e9a07aeb02faa4507b0f071f20246674c32fbaf775c236b47b017623f310"
+    },
+    {
+      "path": "src/SmartDrag.Actions/ActionExecutor.cs",
+      "bytes": 1973,
+      "sha256": "0ff6c66f18a7363200b59144f45b5f26b79c67c3958c3071274aacb48dd39208"
+    },
+    {
+      "path": "src/SmartDrag.Actions/ActionRegistry.cs",
+      "bytes": 1883,
+      "sha256": "d1bc2653b910579e8ac6369dbfa9720ea53c376b1703001a69fc99e1abb6b9de"
+    },
+    {
+      "path": "src/SmartDrag.Actions/BuiltInActionDefinitions.cs",
+      "bytes": 1487,
+      "sha256": "49e98d754fd999e2cb7a1f8978ba22f72ce89a497784f86027afe5e9bfae2cb9"
+    },
+    {
+      "path": "src/SmartDrag.Actions/SmartDrag.Actions.csproj",
+      "bytes": 149,
+      "sha256": "26def63925039f64a2cfaf89678b413538229324836296b3127a222c10686c20"
+    },
+    {
+      "path": "src/SmartDrag.App/Composition/ProductionActivationPolicy.cs",
+      "bytes": 803,
+      "sha256": "4e867451685b4ee369ddd0d021682e5ff779589685b30f7f132ff3d8688514c7"
+    },
+    {
+      "path": "src/SmartDrag.App/Composition/ProductionRuntimeGraph.cs",
+      "bytes": 6338,
+      "sha256": "66e6ea17d7bba219750dd131b4b33ef3995cea8ed987d2656f4512513ff41be6"
+    },
+    {
+      "path": "src/SmartDrag.App/Program.cs",
+      "bytes": 530,
+      "sha256": "b08ece8d84076b86e7c6196d0b08e8d28c7693f4244d5f473753437f5dd98d12"
+    },
+    {
+      "path": "src/SmartDrag.App/SmartDrag.App.csproj",
+      "bytes": 960,
+      "sha256": "e269ae6e6f70346b727e2bacb5ad5c02c7817968a45b168e9a660cc8328e22db"
+    },
+    {
+      "path": "src/SmartDrag.App/StartupSafetyBootstrap.cs",
+      "bytes": 3444,
+      "sha256": "a6cfe218f43d81b903eda63386aefeda01eacf5232f00d7f31017d64d87be1ef"
+    },
+    {
+      "path": "src/SmartDrag.Core/Actions/ActionContext.cs",
+      "bytes": 316,
+      "sha256": "da44fa47a37bec8d7aa7fb5359ecabee7eebb5be5fda0998d9d42179a5e44a99"
+    },
+    {
+      "path": "src/SmartDrag.Core/Actions/ActionDefinition.cs",
+      "bytes": 666,
+      "sha256": "8c230a876169da216507d79e6f53a5035db806bb74f22e3ad9196edc5db92c48"
+    },
+    {
+      "path": "src/SmartDrag.Core/Actions/ActionMetrics.cs",
+      "bytes": 474,
+      "sha256": "e9b7c181844318a5a3d09efa429e661b9d7688ce8dbea2a6d7df27c270dccfdb"
+    },
+    {
+      "path": "src/SmartDrag.Core/Actions/ActionRequest.cs",
+      "bytes": 606,
+      "sha256": "c892c97853815259dc29e1dc08bc6ce20b2c437871698a36cdfb0a27361e04ab"
+    },
+    {
+      "path": "src/SmartDrag.Core/Actions/ActionResult.cs",
+      "bytes": 1272,
+      "sha256": "096c421f835121273db8bad5424370bef2f60ff5be509432c3d042856ba0ec17"
+    },
+    {
+      "path": "src/SmartDrag.Core/Actions/AppCapabilities.cs",
+      "bytes": 262,
+      "sha256": "e427263ac3c8cb3528f0ae6236b471b251f9a8ff38b4483a1f763034894079c7"
+    },
+    {
+      "path": "src/SmartDrag.Core/Actions/BuiltInActionIds.cs",
+      "bytes": 357,
+      "sha256": "ba12191557c8d6cb872b931753ce58be7f3300a6629e5b006ae55eba13919292"
+    },
+    {
+      "path": "src/SmartDrag.Core/Actions/IActionExecutor.cs",
+      "bytes": 169,
+      "sha256": "927776caec66af89f55b37e162ec8ccdd01b7845e324059965555cf11a1ceb5b"
+    },
+    {
+      "path": "src/SmartDrag.Core/Actions/IActionHandler.cs",
+      "bytes": 233,
+      "sha256": "23d5ef4eaa5364fc5915daffc9f524d50d9e483bce79f8b4ee01641014dfc356"
+    },
+    {
+      "path": "src/SmartDrag.Core/Actions/IActionRegistry.cs",
+      "bytes": 242,
+      "sha256": "cbf7c15b770ce278f7e23a7bd6256ec73f0f0dbe547db51d832ceb11cfd72ec9"
+    },
+    {
+      "path": "src/SmartDrag.Core/Artifacts/GeneratedArtifact.cs",
+      "bytes": 2611,
+      "sha256": "4752b7f6937967dfabe6ffb899c5baf40b8fec24116cdcf29797ebb6fbb80b2d"
+    },
+    {
+      "path": "src/SmartDrag.Core/Completion/CompletionExecutionContracts.cs",
+      "bytes": 2109,
+      "sha256": "6807396c945d9b314218df5a8931702f15a06da728e3584e4cbeda43646eb6c2"
+    },
+    {
+      "path": "src/SmartDrag.Core/Completion/CompletionModel.cs",
+      "bytes": 967,
+      "sha256": "bd4dd98f75db953d707e8f6f676f0d8aa1fd86810f75525a9685dea610afbe2a"
+    },
+    {
+      "path": "src/SmartDrag.Core/Drag/DragSession.cs",
+      "bytes": 877,
+      "sha256": "a566aaabcaead6102c5cfe36a0a8cabb73ed2c2a6debbb58959ae06921cf210e"
+    },
+    {
+      "path": "src/SmartDrag.Core/Drag/DragSessionEvent.cs",
+      "bytes": 374,
+      "sha256": "e816b9007dc330c9f6ea63b9cbf124d1e2f83a89ab5c1f29fe1b692ab0557360"
+    },
+    {
+      "path": "src/SmartDrag.Core/Drag/DragSessionReducer.cs",
+      "bytes": 2721,
+      "sha256": "e506bf31d1f0c8a6d902afb98d7e392718c673c71f68fa7017a8f1e5cbf9b649"
+    },
+    {
+      "path": "src/SmartDrag.Core/Drag/DragSessionState.cs",
+      "bytes": 269,
+      "sha256": "b954904c772255ab1b73f93c9000d063fa602481a424e914fdd6fb4fde6ab80d"
+    },
+    {
+      "path": "src/SmartDrag.Core/Drag/InvalidDragTransitionException.cs",
+      "bytes": 431,
+      "sha256": "094d88e69f7e092379087dd30c2e46520aac8e96b9cd171059d110dc95d8a89b"
+    },
+    {
+      "path": "src/SmartDrag.Core/Drag/OverlayEligibility.cs",
+      "bytes": 1872,
+      "sha256": "aada31c921dee867346653943717163381a336edf28045e29001314ef4dbb7e1"
+    },
+    {
+      "path": "src/SmartDrag.Core/Errors/AppError.cs",
+      "bytes": 723,
+      "sha256": "2ebd42911631b337f527c8d3d40741edd76e3b8f4d49f51f6462c6a747443e6a"
+    },
+    {
+      "path": "src/SmartDrag.Core/Jobs/IJobQueue.cs",
+      "bytes": 685,
+      "sha256": "ee0732b6a0f6e993f687a66ee358cfa6a0dbbfe7239ad88fdbacfc50429a38d6"
+    },
+    {
+      "path": "src/SmartDrag.Core/Jobs/JobSnapshot.cs",
+      "bytes": 1164,
+      "sha256": "5563daa71b8445eb47ad947b29938e5175f2df480e6699b730876d97e42d7fe9"
+    },
+    {
+      "path": "src/SmartDrag.Core/Jobs/JobState.cs",
+      "bytes": 143,
+      "sha256": "099b0eb6813a896d3b04f1ec0e883bd31b4cf34384e366ad8cab151698f2c262"
+    },
+    {
+      "path": "src/SmartDrag.Core/Output/IOutputManager.cs",
+      "bytes": 363,
+      "sha256": "29638886669a7261d6500ad14abae04d3be3fe955264f804f07cbb85181fbf87"
+    },
+    {
+      "path": "src/SmartDrag.Core/Output/MvpOutputPolicyFactory.cs",
+      "bytes": 758,
+      "sha256": "96a37899d29dbcf060ca210f2a6bb247d39c679e481e18fc73653aef51007031"
+    },
+    {
+      "path": "src/SmartDrag.Core/Output/OutputPolicy.cs",
+      "bytes": 698,
+      "sha256": "0c485e17bc0ec3039321d8c2580501af68912009b18ee3e73dd1c0f85d2ac548"
+    },
+    {
+      "path": "src/SmartDrag.Core/Output/OutputRequest.cs",
+      "bytes": 277,
+      "sha256": "b3e23e5c7808a49f2a7a87dabcce924d1517e593e08dc89c303e7dc15db47594"
+    },
+    {
+      "path": "src/SmartDrag.Core/Output/OutputReservation.cs",
+      "bytes": 1827,
+      "sha256": "ad7d4d67ca988d566b1c4ff86eb9c2918fc75b10bfef8e5c0934690bd844b1b5"
+    },
+    {
+      "path": "src/SmartDrag.Core/Overlay/IOverlayService.cs",
+      "bytes": 367,
+      "sha256": "94c3032524c15b6cadf81d2ff8e6dd2844deba66d920cf2ba5c0824d41a64d96"
+    },
+    {
+      "path": "src/SmartDrag.Core/Overlay/OverlayModel.cs",
+      "bytes": 757,
+      "sha256": "19eb70c25534f1d601a69a73df191bbc22d75435adc268ded237f9af34e25eb1"
+    },
+    {
+      "path": "src/SmartDrag.Core/Overlay/OverlayPlacementEngine.cs",
+      "bytes": 1385,
+      "sha256": "fa01b0012a93f82abcc8ced3f4dde03eb66b710126ff44aac8cb667cfd8fa5d4"
+    },
+    {
+      "path": "src/SmartDrag.Core/Payload/DragPayloadInfo.cs",
+      "bytes": 298,
+      "sha256": "cd8ada4f7cbdb65ea998340b8c9fa0eb3bd124d1327a03ab3a31bf7012dfa8e9"
+    },
+    {
+      "path": "src/SmartDrag.Core/Payload/DraggedFile.cs",
+      "bytes": 257,
+      "sha256": "5b5dc75c92a22a497918119ef44ea7931ecc99a56d06b826086d0fb2eb952915"
+    },
+    {
+      "path": "src/SmartDrag.Core/Payload/FileCategory.cs",
+      "bytes": 124,
+      "sha256": "72fe9fa479bcee3b330f65327790fcccf97aaebb966142d70618014605adf81d"
+    },
+    {
+      "path": "src/SmartDrag.Core/Payload/FilePayloadSnapshot.cs",
+      "bytes": 710,
+      "sha256": "774fbf9d725dade7152269521991a858e41bd3a730a0bdcf69193e38f7375c56"
+    },
+    {
+      "path": "src/SmartDrag.Core/Payload/IFilePayloadSnapshotFactory.cs",
+      "bytes": 214,
+      "sha256": "b82608f6ff7d4c314e1e23363d1617d0a5646c24a197c2c4c45790de6246cb3c"
+    },
+    {
+      "path": "src/SmartDrag.Core/Payload/MvpImageFormatPolicy.cs",
+      "bytes": 830,
+      "sha256": "62d479701f54349805c84c1ce5dc82c3031e1e31bfc0868513e741ddc3f198c7"
+    },
+    {
+      "path": "src/SmartDrag.Core/Payload/MvpPayloadQualifier.cs",
+      "bytes": 5023,
+      "sha256": "39882f27b2617c86d2ba4d20e626a379fa598c2ed443b377f64139ccd6127a66"
+    },
+    {
+      "path": "src/SmartDrag.Core/Payload/PayloadKind.cs",
+      "bytes": 90,
+      "sha256": "d38f2260811d0f7fa08677db96940aa5239a1bf3346c95943315f32b24df5e83"
+    },
+    {
+      "path": "src/SmartDrag.Core/Payload/PayloadQualification.cs",
+      "bytes": 1290,
+      "sha256": "8d79afd7deb2107130536fcb3e7e556f9943e145d8dd1d3ef9cdcd088e6aaa20"
+    },
+    {
+      "path": "src/SmartDrag.Core/Primitives/ActionId.cs",
+      "bytes": 361,
+      "sha256": "deaf2eefa536c0c94b8df9736850f1f6b3f08dd193a1772b2f8ef4d8affba185"
+    },
+    {
+      "path": "src/SmartDrag.Core/Primitives/JobId.cs",
+      "bytes": 206,
+      "sha256": "33414938652e4e75da75c5113c6a748d953deea575942036c41a253d8a258d3d"
+    },
+    {
+      "path": "src/SmartDrag.Core/Primitives/PointD.cs",
+      "bytes": 263,
+      "sha256": "fbe2187e1e6407973992d4330fa04eda3e41cbd61993f6cd3ae9678d027004dc"
+    },
+    {
+      "path": "src/SmartDrag.Core/Primitives/RectD.cs",
+      "bytes": 215,
+      "sha256": "0e9239d509454c6dcb60400262dfdb0e40afde0961e8c5a1ec46f2122b627532"
+    },
+    {
+      "path": "src/SmartDrag.Core/Primitives/SizeD.cs",
+      "bytes": 104,
+      "sha256": "e94456702d391f3b4596f2a65439007012aaa7f3151dfd120782aa34ea8d3f9a"
+    },
+    {
+      "path": "src/SmartDrag.Core/Recovery/RecoveryContracts.cs",
+      "bytes": 1493,
+      "sha256": "fb13d2b145bccc1457ecc5ec4de4d75b0e6e1bfa148cd5f3e185fe1ed3e45c40"
+    },
+    {
+      "path": "src/SmartDrag.Core/Settings/MvpSettingsPolicy.cs",
+      "bytes": 2839,
+      "sha256": "c69532132f0daf88c5d2c2c834bd85e95b85478a6bbd14b328b2593f24d18a7a"
+    },
+    {
+      "path": "src/SmartDrag.Core/Settings/UserSettings.cs",
+      "bytes": 601,
+      "sha256": "7e3f7a0f651a7d8f28e122e1474e43f42223be5f874ba6c7fcd3e58299ae566b"
+    },
+    {
+      "path": "src/SmartDrag.Core/SmartDrag.Core.csproj",
+      "bytes": 45,
+      "sha256": "3702bcd64b09004893c0afdb530b6b91249de567d2b8708f8ac16dab0c9dd561"
+    },
+    {
+      "path": "src/SmartDrag.Imaging/GuardedImageProcessor.cs",
+      "bytes": 4444,
+      "sha256": "b97e2bef5033b09987035d48594393726f5eb5fbdd46c3f7de2216348f0665ad"
+    },
+    {
+      "path": "src/SmartDrag.Imaging/IImageProcessor.cs",
+      "bytes": 1229,
+      "sha256": "b9ca48daa859df09e6329e74fd451727143486457b18c32148d75e9168d681f4"
+    },
+    {
+      "path": "src/SmartDrag.Imaging/ImageActionHandlers.cs",
+      "bytes": 6429,
+      "sha256": "2af4f922c8f1e359e2468485903a57f6abac03327dab0fe6518f28a0eaed189d"
+    },
+    {
+      "path": "src/SmartDrag.Imaging/ImageCodecContracts.cs",
+      "bytes": 4728,
+      "sha256": "05cbbe4e46ebbd1ca2c7ce06e1380817db34a938a4c99ebedc48f2ae7c18cd23"
+    },
+    {
+      "path": "src/SmartDrag.Imaging/MvpImageActionSemantics.cs",
+      "bytes": 3028,
+      "sha256": "fd26d1caeb53066808635cae276c5f2af2ae4f82dc48c594186f89b1ea5d0e88"
+    },
+    {
+      "path": "src/SmartDrag.Imaging/README.md",
+      "bytes": 593,
+      "sha256": "a560cff8f2cd1912c93f65d6176d2dd21fb0b0bdc757441db1dfe4afae8af40c"
+    },
+    {
+      "path": "src/SmartDrag.Imaging/SmartDrag.Imaging.csproj",
+      "bytes": 149,
+      "sha256": "26def63925039f64a2cfaf89678b413538229324836296b3127a222c10686c20"
+    },
+    {
+      "path": "src/SmartDrag.Infrastructure/OutputNamePlanner.cs",
+      "bytes": 1580,
+      "sha256": "d0be7b21fd31bc61598a03f881789631cf06ee7fb766e9e79950c510ba3cbbf1"
+    },
+    {
+      "path": "src/SmartDrag.Infrastructure/PhysicalFilePayloadSnapshotFactory.cs",
+      "bytes": 2343,
+      "sha256": "b5d2bb98be3c5e8ce1d6b44b3011df98f33010e84a120de4c559e89e65773e56"
+    },
+    {
+      "path": "src/SmartDrag.Infrastructure/PhysicalOutputManager.cs",
+      "bytes": 15424,
+      "sha256": "28702d81be188b96145fee03660ef4c24f29073fab4ff9655f8cc300c2b9f0c1"
+    },
+    {
+      "path": "src/SmartDrag.Infrastructure/Recovery/InMemoryOutputRecoveryJournal.cs",
+      "bytes": 1412,
+      "sha256": "14c00751eb668ae09c578dec1693285b381cc7d014adccfd69f7002422984c05"
+    },
+    {
+      "path": "src/SmartDrag.Infrastructure/Recovery/JsonOutputRecoveryJournal.cs",
+      "bytes": 11405,
+      "sha256": "ba1f944114d9b1eb0fe7c8064bc0a72edbcc54c6e8c098fe68fad2c20829cfb1"
+    },
+    {
+      "path": "src/SmartDrag.Infrastructure/Recovery/OutputStartupRecoveryService.cs",
+      "bytes": 5553,
+      "sha256": "7f3dd4b177d15e7efc5cac594232832e5c67c941eb9ec92fc8c6cb14415c979f"
+    },
+    {
+      "path": "src/SmartDrag.Infrastructure/SmartDrag.Infrastructure.csproj",
+      "bytes": 149,
+      "sha256": "26def63925039f64a2cfaf89678b413538229324836296b3127a222c10686c20"
+    },
+    {
+      "path": "src/SmartDrag.Orchestration/ActionCommitDecision.cs",
+      "bytes": 997,
+      "sha256": "a636601f9eb83a392acfdefaa2695767eec0ffad55351cd4043ff48ec5e5f372"
+    },
+    {
+      "path": "src/SmartDrag.Orchestration/CommittedActionDispatcher.cs",
+      "bytes": 1891,
+      "sha256": "d5d86e98decf9441f735035646def4a6a65d0d930e89c4431ded724dcc66cd49"
+    },
+    {
+      "path": "src/SmartDrag.Orchestration/DragInteractionCoordinator.cs",
+      "bytes": 6930,
+      "sha256": "c628f8d30bc72d36eb6d2bf684391d9002369365de232bdbe83ae53760fc7615"
+    },
+    {
+      "path": "src/SmartDrag.Orchestration/DragWorkflowOrchestrator.cs",
+      "bytes": 7408,
+      "sha256": "3c19828f1862c8e2e1a9be775f8dbcd26aa132f8de10b8044a01157affcd50f5"
+    },
+    {
+      "path": "src/SmartDrag.Orchestration/IProductionDragInteraction.cs",
+      "bytes": 1161,
+      "sha256": "a0cd5d288af90305e18f8cb25493186ed9d94480fa0b9e93159b90e719e5ee30"
+    },
+    {
+      "path": "src/SmartDrag.Orchestration/PreparedOverlaySession.cs",
+      "bytes": 1916,
+      "sha256": "616a8c306c82fc1e50411f4a3561f511a8a314beded772214f7483dda0852e5e"
+    },
+    {
+      "path": "src/SmartDrag.Orchestration/SmartDrag.Orchestration.csproj",
+      "bytes": 149,
+      "sha256": "26def63925039f64a2cfaf89678b413538229324836296b3127a222c10686c20"
+    },
+    {
+      "path": "src/SmartDrag.Overlay/OverlayAssemblyMarker.cs",
+      "bytes": 247,
+      "sha256": "459af55eedf17e79daa528f8c110fd0acfad4cfc598ff7e950dfd3679b78fe9f"
+    },
+    {
+      "path": "src/SmartDrag.Overlay/SmartDrag.Overlay.csproj",
+      "bytes": 240,
+      "sha256": "3789a3b0a7d7dcff9d461f990ae32ab8cde4a65fa8cdf9615ab4343e6a050e43"
+    },
+    {
+      "path": "src/SmartDrag.Presentation/MvpPresentationCoordinator.cs",
+      "bytes": 10125,
+      "sha256": "9d7f1a3628fa90936802f4b51f46f93cfc7a72e68a9d6b0dde3cdef11522375b"
+    },
+    {
+      "path": "src/SmartDrag.Presentation/MvpPresentationPolicy.cs",
+      "bytes": 6533,
+      "sha256": "840c99afc1d5b6989d57769d6350030f119bffd3a6a8483d848eff92f227fbc7"
+    },
+    {
+      "path": "src/SmartDrag.Presentation/PresentationModels.cs",
+      "bytes": 1910,
+      "sha256": "6b43bbd57218c77e1bdac98c522610c6439be1e17846e1e84113f91c9802f6e6"
+    },
+    {
+      "path": "src/SmartDrag.Presentation/SmartDrag.Presentation.csproj",
+      "bytes": 230,
+      "sha256": "aa136e5531dec42a5beb6cb897ab82bad516ab7a4e88d45e330f923fbe0a9d02"
+    },
+    {
+      "path": "src/SmartDrag.Runtime/CompletionCommandExecutor.cs",
+      "bytes": 6758,
+      "sha256": "cdf47a3aa842d9f78e67adcb5392bd302f757db05b1a3060370e812072c85fd1"
+    },
+    {
+      "path": "src/SmartDrag.Runtime/CompletionCoordinator.cs",
+      "bytes": 2884,
+      "sha256": "4711e51dc0acb609a3f01d93704b6d71fb099ecebe3670ecdfeb3a5833342328"
+    },
+    {
+      "path": "src/SmartDrag.Runtime/CompletionProjector.cs",
+      "bytes": 3569,
+      "sha256": "efd595dbb193bb0946e121cc30b0e027656bdbd3c8279a47b8ed6c6964422193"
+    },
+    {
+      "path": "src/SmartDrag.Runtime/SequentialJobQueue.cs",
+      "bytes": 11611,
+      "sha256": "583ff0db5bf5f0683ffe0391f2cf201290501b2f764282c807050e1ade109ac8"
+    },
+    {
+      "path": "src/SmartDrag.Runtime/SmartDrag.Runtime.csproj",
+      "bytes": 149,
+      "sha256": "26def63925039f64a2cfaf89678b413538229324836296b3127a222c10686c20"
+    },
+    {
+      "path": "src/SmartDrag.Windows/Artifacts/WindowsGeneratedArtifactIdentityService.cs",
+      "bytes": 11874,
+      "sha256": "f418239b5663016d5a21c8c91cf489fefff18e8a44ff967a58cc225dfcf71e40"
+    },
+    {
+      "path": "src/SmartDrag.Windows/Completion/WindowsCompletionPlatformService.cs",
+      "bytes": 7619,
+      "sha256": "ab891c0a05dee9c2e4e298e6e844383237f6afaf1e1bb50205c00333eb15413f"
+    },
+    {
+      "path": "src/SmartDrag.Windows/Diagnostics/TimelineLogger.cs",
+      "bytes": 1763,
+      "sha256": "c70b0498a27c458704601fb31ae0164facb6fe8380fb3cf4e0823eb357e89b2b"
+    },
+    {
+      "path": "src/SmartDrag.Windows/Drag/DragSignal.cs",
+      "bytes": 306,
+      "sha256": "a0cb6f3d4370b22de000224fe5eef34dde7d40dc2912e6ed66b2cc0ed5fa14fc"
+    },
+    {
+      "path": "src/SmartDrag.Windows/Drag/WinEventDragSignalSource.cs",
+      "bytes": 3349,
+      "sha256": "1d0efcb4686c286017c7e379abc09c6a8937c2a9b5ea74fde0a63914374861fc"
+    },
+    {
+      "path": "src/SmartDrag.Windows/Interop/NativeConstants.cs",
+      "bytes": 1754,
+      "sha256": "4cb0d29ece07731cbe7f98571c4db1c0d558412253818bca12579fe2c699c3f6"
+    },
+    {
+      "path": "src/SmartDrag.Windows/Interop/NativeMethods.cs",
+      "bytes": 6421,
+      "sha256": "e2d2423a91134ba10f811ac1b6b14a84003b221ba40f907357850aa5709cf1c7"
+    },
+    {
+      "path": "src/SmartDrag.Windows/Interop/NativeStructs.cs",
+      "bytes": 1750,
+      "sha256": "cf3fd8f527e0357985d67273c37865ded5b77aa5c451694084f489d159e12523"
+    },
+    {
+      "path": "src/SmartDrag.Windows/Lifetime/NamedMutexSingleInstanceLease.cs",
+      "bytes": 3202,
+      "sha256": "78b4eec5ac1b2c11f873585d58ab68966cd805ca7132ebd8d12e05492f054c2a"
+    },
+    {
+      "path": "src/SmartDrag.Windows/Ole/DropEffectPolicy.cs",
+      "bytes": 519,
+      "sha256": "263596485dd5c6a80b27520cc5d94c199b44abf06ba4dd4fbd3a451e6a393d3a"
+    },
+    {
+      "path": "src/SmartDrag.Windows/Ole/FileDropDataReader.cs",
+      "bytes": 2802,
+      "sha256": "2477c836620734e5ae57d27565ed2053007a9566c87a86097e1004e068f04fec"
+    },
+    {
+      "path": "src/SmartDrag.Windows/Ole/IDropTargetNative.cs",
+      "bytes": 645,
+      "sha256": "76962916ba530ed6f67203b9f902d52e8ac6367684ed5c2a87eb39ebe3c31061"
+    },
+    {
+      "path": "src/SmartDrag.Windows/Ole/OleDropTargetRegistration.cs",
+      "bytes": 994,
+      "sha256": "8f27e86ed47ae89ad45679c557db525b6393f71da3d19c25f43c83a1a21dbaab"
+    },
+    {
+      "path": "src/SmartDrag.Windows/Ole/OleThreadScope.cs",
+      "bytes": 669,
+      "sha256": "4bb8c3bc1bbdf04bdafa185fa0dffb82536a8c77f76de9d08e6ec72b26c0beef"
+    },
+    {
+      "path": "src/SmartDrag.Windows/Shell/ExplorerSelectionSnapshotReader.cs",
+      "bytes": 6453,
+      "sha256": "12357fb268f0c6d29cc6f3acb140f5a8f726fec8ae76bef68aa514c761fe8ac4"
+    },
+    {
+      "path": "src/SmartDrag.Windows/SmartDrag.Windows.csproj",
+      "bytes": 240,
+      "sha256": "3789a3b0a7d7dcff9d461f990ae32ab8cde4a65fa8cdf9615ab4343e6a050e43"
+    },
+    {
+      "path": "tests/SmartDrag.Actions.Tests/ActionExecutorTests.cs",
+      "bytes": 1910,
+      "sha256": "a6da9ad94e4faf326fcb358a87136cde0e2aff01a6f8e034a800424d561317e5"
+    },
+    {
+      "path": "tests/SmartDrag.Actions.Tests/ActionRegistryTests.cs",
+      "bytes": 1078,
+      "sha256": "583017726df99975931781e26cd1179ee381084992b0cbbf5760a2435860cc00"
+    },
+    {
+      "path": "tests/SmartDrag.Actions.Tests/SmartDrag.Actions.Tests.csproj",
+      "bytes": 559,
+      "sha256": "6b698eb2e5d2ce80f18a06578d504e12d9d300f86bb6d967f2f4c0d61ecd8867"
+    },
+    {
+      "path": "tests/SmartDrag.Core.Tests/DragSessionReducerTests.cs",
+      "bytes": 2064,
+      "sha256": "12637d640582235bba310b159156d0e37d34003d7f4ca62f361817c031123c1c"
+    },
+    {
+      "path": "tests/SmartDrag.Core.Tests/MvpPayloadQualifierTests.cs",
+      "bytes": 4622,
+      "sha256": "15dbcb4f1f0a2533bab052e46b8826c4e5611dff805cdad8ec00a4da0361d18e"
+    },
+    {
+      "path": "tests/SmartDrag.Core.Tests/MvpSettingsPolicyTests.cs",
+      "bytes": 1587,
+      "sha256": "67340711bd0dec6e7c17b8f7812cad6d6aabf044f599bf6b6f7d918f0ed24623"
+    },
+    {
+      "path": "tests/SmartDrag.Core.Tests/OverlayEligibilityEvaluatorTests.cs",
+      "bytes": 1524,
+      "sha256": "e18245853cce30bed3a975a0f47f2a08cd364472f81b1b1aa4ddf2cc76d73008"
+    },
+    {
+      "path": "tests/SmartDrag.Core.Tests/OverlayPlacementEngineTests.cs",
+      "bytes": 1534,
+      "sha256": "78c120244bc3bc2e5effa0e1c884028b3d54c4de180b27aca95ea70064a02a40"
+    },
+    {
+      "path": "tests/SmartDrag.Core.Tests/SmartDrag.Core.Tests.csproj",
+      "bytes": 553,
+      "sha256": "5b741da5de070e9d47f963125240844841da31ae20d9fcb39ef208dd05e91dc2"
+    },
+    {
+      "path": "tests/SmartDrag.Imaging.Tests/GuardedImageProcessorTests.cs",
+      "bytes": 3525,
+      "sha256": "6276461c908ccd307695f51d48b8d566998c2c0e4e6811824b8385ca46aecdda"
+    },
+    {
+      "path": "tests/SmartDrag.Imaging.Tests/ImageActionHandlerTests.cs",
+      "bytes": 7239,
+      "sha256": "17793c1bec7cd5540df3edc85422454ca314661b2e7e7a695bbe2b4e6b8d5845"
+    },
+    {
+      "path": "tests/SmartDrag.Imaging.Tests/MvpImageExecutionGuardTests.cs",
+      "bytes": 2996,
+      "sha256": "8c3a6ff78bf5020e13f8698ff2668ce623699ad0f381f638a429d9250c158949"
+    },
+    {
+      "path": "tests/SmartDrag.Imaging.Tests/SmartDrag.Imaging.Tests.csproj",
+      "bytes": 559,
+      "sha256": "8bc822af88e1c8dcdcdacc1c26c1d465993e49c100af4a015334d1cfbf68b0ee"
+    },
+    {
+      "path": "tests/SmartDrag.Infrastructure.Tests/OutputRecoveryTests.cs",
+      "bytes": 8387,
+      "sha256": "bdff902a69cbbef51443100dbe8816ef3a39bc8122de98228b6bbce8bdf36c36"
+    },
+    {
+      "path": "tests/SmartDrag.Infrastructure.Tests/PhysicalFilePayloadSnapshotFactoryTests.cs",
+      "bytes": 2229,
+      "sha256": "0f1f6fbe11d2c5509d69e7f7952c7f1705acfbaff4421c118f0eabfaff2ac6e3"
+    },
+    {
+      "path": "tests/SmartDrag.Infrastructure.Tests/PhysicalOutputManagerTests.cs",
+      "bytes": 14591,
+      "sha256": "2de19b47687f97bb2bb71614abef342f47ab466c1e0e644b9c584618a9e3c1b1"
+    },
+    {
+      "path": "tests/SmartDrag.Infrastructure.Tests/SmartDrag.Infrastructure.Tests.csproj",
+      "bytes": 573,
+      "sha256": "0f28722a0e6e58ccb4b5a56e2f09877d0806b3d04ddd77b89f0fc0441b085efd"
+    },
+    {
+      "path": "tests/SmartDrag.Orchestration.Tests/CommittedActionDispatcherTests.cs",
+      "bytes": 4674,
+      "sha256": "9586c02db46002d9dc94c2992e3f957a200fd2d430bb80e3b49753cfa7dc4852"
+    },
+    {
+      "path": "tests/SmartDrag.Orchestration.Tests/DragInteractionCoordinatorTests.cs",
+      "bytes": 6230,
+      "sha256": "7e9c55ba72ddf52568099370c7b6fdb7967c8b871058b90dcdc5d2d756ea45dd"
+    },
+    {
+      "path": "tests/SmartDrag.Orchestration.Tests/DragWorkflowOrchestratorTests.cs",
+      "bytes": 6372,
+      "sha256": "2550e4d410cecef7a999294a653b99da50602b19acb8b1ff3e8d2331171ea244"
+    },
+    {
+      "path": "tests/SmartDrag.Orchestration.Tests/SmartDrag.Orchestration.Tests.csproj",
+      "bytes": 810,
+      "sha256": "1a6a278864478636f80d720776ec16646ba31622e3659c4a81b5b6861cb247fa"
+    },
+    {
+      "path": "tests/SmartDrag.Presentation.Tests/MvpPresentationCoordinatorTests.cs",
+      "bytes": 5757,
+      "sha256": "7e471b1b433c5a3d5014eab0b5214ab90fa46fb595314f4a5a5fd9a7d69339c8"
+    },
+    {
+      "path": "tests/SmartDrag.Presentation.Tests/MvpPresentationPolicyTests.cs",
+      "bytes": 3243,
+      "sha256": "dfe0f064cb52e07cd0871fcc882d6e9c881e2e31d335822300b82d47d95ad8a6"
+    },
+    {
+      "path": "tests/SmartDrag.Presentation.Tests/SmartDrag.Presentation.Tests.csproj",
+      "bytes": 827,
+      "sha256": "e5324573d1eb76eec8808ffc5d1cc2b20cac50216599c82a49e57aa14a885b6d"
+    },
+    {
+      "path": "tests/SmartDrag.Runtime.Tests/CompletionCommandExecutorTests.cs",
+      "bytes": 8039,
+      "sha256": "2b92915341c797b97b0ff31f75da899786086849271118d9c3d947e4b9d387ce"
+    },
+    {
+      "path": "tests/SmartDrag.Runtime.Tests/CompletionCoordinatorTests.cs",
+      "bytes": 1912,
+      "sha256": "e3c1204b85a0352f258be636e9f8b8a50c37ad45e8914b19bd0c5cecc8b5c7d1"
+    },
+    {
+      "path": "tests/SmartDrag.Runtime.Tests/CompletionProjectorTests.cs",
+      "bytes": 4298,
+      "sha256": "507b3db3f731edefb8411c993b97bda59bb59d97aff382f770832d50a91b2613"
+    },
+    {
+      "path": "tests/SmartDrag.Runtime.Tests/SequentialJobQueueTests.cs",
+      "bytes": 8761,
+      "sha256": "a4195e79a2174e15ad7eab9ecdec4690b788c29d78586f97c0c5bd8877d38cf3"
+    },
+    {
+      "path": "tests/SmartDrag.Runtime.Tests/SmartDrag.Runtime.Tests.csproj",
+      "bytes": 641,
+      "sha256": "9326559c5c5d476ade9d1e5c7f0b21dee3d41cc7e7e6bb531a616f1801cef3fc"
+    },
+    {
+      "path": "tests/SmartDrag.Windows.Tests/Artifacts/WindowsGeneratedArtifactIdentityServiceTests.cs",
+      "bytes": 3167,
+      "sha256": "cfe5c45d671576ecb5dffbb9992b27b907dab44937810e0ac1cb73c90334e518"
+    },
+    {
+      "path": "tests/SmartDrag.Windows.Tests/DropEffectPolicyTests.cs",
+      "bytes": 1124,
+      "sha256": "c29fe3642fcf0d2e0caefd96bccc8cb5127a3756b3a30bc567fca12b82a4e24d"
+    },
+    {
+      "path": "tests/SmartDrag.Windows.Tests/NamedMutexSingleInstanceLeaseTests.cs",
+      "bytes": 534,
+      "sha256": "794afde5175e18c5c283e2f4bc088d663eead188c4d3bc9b0e77030e153f2c4a"
+    },
+    {
+      "path": "tests/SmartDrag.Windows.Tests/SmartDrag.Windows.Tests.csproj",
+      "bytes": 613,
+      "sha256": "ce3cd02788812b80aa94c71fb060c55ecd272168c0eb0e7b31cdef8c6389b1ea"
+    },
+    {
+      "path": "tests/SmartDrag.Windows.Tests/WindowsCompletionPlatformServiceTests.cs",
+      "bytes": 800,
+      "sha256": "2d8cc77d94b48de2906ddf0260c0c2b6366ae756067fea0f9a776bef8c52bbde"
+    },
+    {
+      "path": "tests/fixtures/images/CORPUS_MANIFEST.json",
+      "bytes": 1437,
+      "sha256": "67ce70c633fbd06545e56fd072700dd8d54a53f4660fd7fb2db639a81f774baa"
+    },
+    {
+      "path": "tests/fixtures/images/alpha-gradient.png",
+      "bytes": 394,
+      "sha256": "f32965c60dcb3016212e3cea508648359cf5f338619e64683c3ee01418c93684"
+    },
+    {
+      "path": "tests/fixtures/images/animated-negative.gif",
+      "bytes": 205,
+      "sha256": "6f5da7ce3d7c17d093ca07ad92c6457ce23edcb85aeea39e4b098926b9539db8"
+    },
+    {
+      "path": "tests/fixtures/images/exif-orientation-6.jpg",
+      "bytes": 6366,
+      "sha256": "76eb4722787fef6b9b6427f39ea9236a3c5e064801d1dcd4f2dc7d253da0cf07"
+    },
+    {
+      "path": "tests/fixtures/images/icc-srgb.jpg",
+      "bytes": 6936,
+      "sha256": "9c1c1e32db468da513b2f4b6494b8d616bbff3e0c98b3258be9e8519fd22542e"
+    },
+    {
+      "path": "tests/fixtures/images/not-an-image.png",
+      "bytes": 41,
+      "sha256": "88b7821d57118e2fd1a22999ff38ceb62b429652c3961b3c0972d2f6af9a8368"
+    },
+    {
+      "path": "tests/fixtures/images/png-text-metadata.png",
+      "bytes": 3109,
+      "sha256": "4a0f82fb5401543b1632f0c02b2d69c4d85d08965e7b17f3e3afa6170a40af80"
+    },
+    {
+      "path": "tests/fixtures/images/rgb-basic.png",
+      "bytes": 3004,
+      "sha256": "28355f7b3bd455d5b4307362e5e63f0805edd4906c0c9bf7118bc36a76bc229e"
+    },
+    {
+      "path": "tests/fixtures/images/rgb-photo.jpg",
+      "bytes": 6330,
+      "sha256": "e1c09899422f6afed366d8515cb92e715dcd65bbb7a91893db30efe60ae87c70"
+    },
+    {
+      "path": "tests/fixtures/images/truncated.jpg",
+      "bytes": 1266,
+      "sha256": "71e619b4aca9341e59b6758668a612a1b618c106249622eddc2b123ec5cf90e9"
+    },
+    {
+      "path": "tools/SmartDrag.Windows.Probe/ProbeAction.cs",
+      "bytes": 453,
+      "sha256": "1a2889810ba7610b651ea97a41a45fa6cb4fdf61639ac02072b6c69c69c668fc"
+    },
+    {
+      "path": "tools/SmartDrag.Windows.Probe/ProbeDragCoordinator.cs",
+      "bytes": 7738,
+      "sha256": "d4bab4f4b641b3120738a57cf5f59ec1c477993ad4806861ae121d64fd65706d"
+    },
+    {
+      "path": "tools/SmartDrag.Windows.Probe/ProbeDropTarget.cs",
+      "bytes": 7992,
+      "sha256": "eeb61425b90bda072bfdd3b840c7c829b65216a8fd1880e74da9ded4ce864f8b"
+    },
+    {
+      "path": "tools/SmartDrag.Windows.Probe/ProbeMode.cs",
+      "bytes": 524,
+      "sha256": "ecaaa267dd42fc3a23af08bf28891946eb78d9b5e9fd02b1a5c0f2f51ac2898e"
+    },
+    {
+      "path": "tools/SmartDrag.Windows.Probe/ProbePayloadExpectation.cs",
+      "bytes": 192,
+      "sha256": "7e9756090ffb8a0d783ec79e13595a1dfb0cc51964f51acd0ea334d540f1a752"
+    },
+    {
+      "path": "tools/SmartDrag.Windows.Probe/ProbeWindow.cs",
+      "bytes": 11241,
+      "sha256": "ec15ea5b45a0860a2ad50c6e8aa82dee9ee586a77cf42f8cc630618fe3abc80f"
+    },
+    {
+      "path": "tools/SmartDrag.Windows.Probe/Program.cs",
+      "bytes": 4641,
+      "sha256": "2c40d6b3b44a11878488c80bc5cbc41f24cedea3877c3e0bf0171b7748a93bbf"
+    },
+    {
+      "path": "tools/SmartDrag.Windows.Probe/SmartDrag.Windows.Probe.csproj",
+      "bytes": 536,
+      "sha256": "4246e86ddf936948e01433af0ff038c787bc52db1ab017ec20d6c5726e1e4f6a"
+    },
+    {
+      "path": "tools/SmartDrag.Windows.Probe/app.manifest",
+      "bytes": 458,
+      "sha256": "af9ada5cc3501c4da5dbc5f083db0c48266192e334c735db6a7dcb8cdc411610"
+    },
+    {
+      "path": "tools/generate_image_corpus.py",
+      "bytes": 3181,
+      "sha256": "1453a03df67340828a45859ab5e35b5d8376b7283e5f734fbd8f81dff5bcb476"
+    }
+  ]
+}
